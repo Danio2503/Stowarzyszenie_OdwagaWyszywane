@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    background-color: aqua;
+}
+
+.dropdown {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 0;
+}
+
+
+.dropdown-menu li a {
+    white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
