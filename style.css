@@ -55,3 +55,16 @@ nav {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left .mid .right {
+    flex: 1;
+    color: white;
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+}
