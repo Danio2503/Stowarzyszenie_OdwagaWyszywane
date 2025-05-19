@@ -8,6 +8,10 @@ body {
     background-color: darkslategray;
 }
 
+nav {
+    background-color: gray;
+}
+
 .menu ul {
     list-style: none;
     display: flex;
@@ -25,25 +29,24 @@ body {
 }
 
 .menu ul li a:hover {
-    background-color: aqua;
+    background-color: rgb(255, 0, 0);
 }
 
 .dropdown {
     flex: 1;
     padding: 10px;
     margin: 5px;
-    background-color: red;
+    background-color: rgb(125, 35, 35);
     color: white;
 }
 
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: red;
+    background-color: rgb(125, 35, 35);
     top: 100%;
     left: 0;
 }
-
 
 .dropdown-menu li a {
     white-space: nowrap;
