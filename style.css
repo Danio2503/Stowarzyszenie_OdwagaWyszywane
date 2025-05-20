@@ -2,10 +2,13 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
 }
 
 body {
     background-color: darkslategray;
+    overflow: scroll;
 }
 
 nav {
@@ -56,15 +59,35 @@ nav {
     display: block;
 }
 
-.main-content {
+.text-content {
     display: flex;
     flex-direction: row;
 }
 
-.left .mid .right {
+.left, .mid, .right {
     flex: 1;
     color: white;
     background-color: gray;
+    padding: 20px;
     font-size: 20px;
-    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-view {
+    flex: 1;
+    display: flex;
+}
+
+.image-view > a {
+    flex: 1;
+    padding: 10%;
+    margin: 10px;
+}
+
+.text-content {
+    flex: 1;
 }
