@@ -64,7 +64,7 @@ nav {
     flex-direction: row;
 }
 
-.left, .mid, .right {
+.left .mid .right {
     flex: 1;
     color: white;
     background-color: gray;
