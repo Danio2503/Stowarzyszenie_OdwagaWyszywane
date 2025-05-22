@@ -38,9 +38,21 @@ nav {
     background-color: rgb(255, 0, 0);
 }
 
+li {
+    padding: 0;
+}
+
+li > a {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+}
+
 .dropdown {
     flex: 1;
-    padding: 10px;
+    display: flex;
     margin: 5px;
     background-color: rgb(125, 35, 35);
     color: white;
