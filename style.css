@@ -7,8 +7,11 @@
 }
 
 body {
-    background-color: darkslategray;
+    background-image: url("./background.png") !important;
     overflow: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 nav {
@@ -102,4 +105,24 @@ nav {
 
 .history-main > img {
     flex: 2;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.big {
+    flex: 6
+}
+
+.small {
+    flex: 4;
+}
+
+div > .big, .small {
+    color: white;
+    background-color: darkslategray;
+    font-size: 20px;
+    margin: 15px;
 }
