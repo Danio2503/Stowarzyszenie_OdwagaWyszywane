@@ -12,10 +12,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-}
-
-nav {
-    background-color: gray;
+    margin: 9vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .menu ul {
@@ -26,20 +25,18 @@ nav {
 
 .menu ul li {
     position: relative;
+    width: 13.5vw;
 }
 
 .menu ul li a {
     display: block;
     text-decoration: none;
     color: white;
+    height: 5vh;
 }
 
 .menu ul li a:hover {
     background-color: rgb(255, 0, 0);
-}
-
-li {
-    padding: 0;
 }
 
 li > a {
@@ -53,7 +50,6 @@ li > a {
 .dropdown {
     flex: 1;
     display: flex;
-    margin: 5px;
     background-color: rgb(125, 35, 35);
     color: white;
 }
@@ -66,8 +62,8 @@ li > a {
     left: 0;
 }
 
-.dropdown-menu ul li a {
-    white-space: nowrap;
+.text-content p {
+    margin: 10px;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -99,8 +95,6 @@ li > a {
 
 .image-view > a {
     flex: 1;
-    padding: 10%;
-    margin: 10px;
 }
 
 .text-content {
@@ -130,6 +124,10 @@ li > a {
 
 .small {
     flex: 4;
+}
+
+.dropdown-menu li a svg, .dropdown-menu li a h1 {
+    text-align: center;
 }
 
 div > .big, .small {
