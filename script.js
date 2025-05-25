@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", function () {
         console.warn("script.js: No <header> element found.");
         return;
     }
-    fetch("/nav.html")
+    fetch("../nav.html")
         .then((res) => {
             if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`);
             return res.text();
