@@ -4,6 +4,7 @@
     text-decoration: none;
     text-align: center;
     justify-content: center;
+    color: white;
 }
 
 body {
@@ -45,6 +46,11 @@ li > a {
     margin: 0;
     justify-content: center;
     align-content: center;
+}
+
+a > p {
+    font-weight: bolder;
+    font-size: x-large
 }
 
 .dropdown {
@@ -126,7 +132,7 @@ li > a {
     flex: 4;
 }
 
-.dropdown-menu li a svg, .dropdown-menu li a h1 {
+.dropdown-menu li a svg, .dropdown-menu li a p {
     text-align: center;
 }
 
@@ -135,4 +141,70 @@ div > .big, .small {
     background-color: darkslategray;
     font-size: 20px;
     margin: 15px;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.title p {
+    font-size: 20px;
+
+}
+
+.title p, h1, h2 {
+    margin: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 14%;
+    border: 1px solid #ddd;
+    margin: 5px;
+    vertical-align: top;
+    height: 90px;
+}
+
+th {
+    background-color: #f58f8f;
+    color: white;
+}
+
+th.weekend {
+    background-color: lightgray;
+}
+
+td.weekend {
+    background-color: #f9f9f9;
+}
+
+td {
+    background-color: #ffe9e9;
+}
+
+.date {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.event-title {
+    font-weight: bold;
+    color: #1d1b50;
+}
+
+.event-type {
+    font-size: 0.85em;
+    color: #444;
+}
+
+.time {
+    font-weight: bold;
+    color: #1d1b50;
+    margin-top: 5px;
 }
