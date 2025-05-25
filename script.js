@@ -1,22 +1,34 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Automatically detect the path to nav.html
-    const levelsUp = location.pathname.split('/').length - 2;
-    const navPath = '../'.repeat(levelsUp) + 'nav.html';    
-    console.log('Trying to fetch nav from:', navPath); // Debug info    
+fetch('/nav.html')
+    .then(res => res.text())
+    .then(data => {
+        console.log('Fetched nav.html:', data); // See exactly what is fetched
+        document.querySelector('header').innerHTML = data;
+    })
+    .catch(err => console.error('Error loading nav:', err));
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {   
+    const pathParts = window.location.pathname.split('/');
+    const depth = pathParts.length - 2;
+    const navPath = '../'.repeat(depth) + 'nav.html';
     fetch(navPath, { cache: 'no-store' })
-        .then(res => {
-            if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
-            return res.text();
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.text();
         })
         .then(html => {
             const header = document.querySelector('header');
             if (header) {
                 header.innerHTML = html;
             } else {
-                console.error('No <header> found to inject nav into.');
+                console.error('No <header> element found in the document.');
             }
         })
-        .catch(err => {
-            console.error('Failed to load nav.html:', err);
+        .catch(error => {
+            console.error('Failed to load nav.html:', error);
         });
 });
