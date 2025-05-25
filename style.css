@@ -99,8 +99,10 @@ a > p {
     display: flex;
 }
 
-.image-view > a {
+.image-view > img {
     flex: 1;
+    padding: 1vw;
+    margin-top: 10vh;
 }
 
 .text-content {
@@ -212,4 +214,72 @@ td {
     font-weight: bold;
     color: #1d1b50;
     margin-top: 5px;
+}
+
+.offers-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.offers-main div {
+    flex: 1;
+    min-height: 15vh;
+}
+
+.offers-main div p {
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.button {
+    background-color: rgb(125, 35, 35);
+    text-decoration: underline;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#languages {
+    margin-top: 10vh;
+    display: flex;
+    background-color: #e2e9ee;
+}
+
+#languages img {
+    flex: 2;
+}
+
+#languages > div {
+    flex: 3
+}
+
+#languages div h1 {
+    color: #1d1b50;
+}
+
+div.details {
+    display: flex;
+    flex-direction: row;
+}
+
+div.details > div {
+    flex: 1;
+}
+
+div.details div > img {
+    position: absolute;
+}
+
+div.info, div.info p {
+    flex: 15;
+    color: #1d1b50;
+}
+
+div.title h1, div.title p {
+    color: #1d1b50;
+}
+
+div.title p, div.info p, div.info {
+    font-weight: bold;
 }
