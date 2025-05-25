@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("./background.png") !important;
+    background-image: url("./media/background.png") !important;
     overflow: scroll;
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,6 +120,11 @@ a > p {
 }
 
 .about-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.offers-main {
     display: flex;
     flex-direction: row;
 }
