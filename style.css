@@ -163,6 +163,14 @@ div > .big, .small {
     margin: 15px;
 }
 
+#calendar-title {
+    color: rgb(200, 30, 30);
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 50px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -244,36 +252,39 @@ td {
     margin-top: 10vh;
     display: flex;
     background-color: #e2e9ee;
-}
-
-#languages img {
-    flex: 2;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #languages > div {
-    flex: 3
-}
-
-#languages div h1 {
-    color: #1d1b50;
-}
-
-div.details {
     display: flex;
-    flex-direction: row;
 }
 
-div.details > div {
-    flex: 1;
+#languages div div h1 {
+    color: #1d1b50;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-div.details div > img {
-    position: absolute;
+#languages div div.info {
+    display: flex;
+    flex-direction: column;
+}
+
+#languages div div p {
+    color: #1d1b50;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div#languages div > div {
+    flex: 3;
 }
 
 div.info, div.info p {
-    flex: 15;
+    flex: 2;
     color: #1d1b50;
+    font-size: 20px;
 }
 
 div.title h1, div.title p {
@@ -282,4 +293,139 @@ div.title h1, div.title p {
 
 div.title p, div.info p, div.info {
     font-weight: bold;
+}
+
+div.description {
+    font-size: 10px;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+div#se {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 215, 245);
+    margin-top: 10vh;
+    padding: 40px;
+}
+
+div#se div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+div#se div div {
+    flex: 2;
+    align-items: center;
+    color: #1d1b50;
+}
+
+div#se div div p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d1b50;
+}
+
+div#se div div h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1b50;
+}
+
+div#se div.info {
+    flex: 1;
+}
+
+div#se div.info h1 {
+    color: #1d1b50;
+    font-size: 30px;
+}
+
+div#se div.info p {
+    color: #1d1b50;
+    font-size: 20px;
+}
+
+div#se div.info a {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+div#se div.data {
+    display: flex;
+    flex-direction: column;
+}
+
+div#se div.data div.table {
+    display: flex;
+    flex-direction: row;
+}
+
+div#se div.data div.table .row1 {
+    align-items: self-end;
+}
+
+div#se div.data div.table .row2 {
+    align-items: self-start;
+}
+
+div.row1 div, div.row2 div {
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(230, 170, 225);
+    width: 200px;
+    font-weight: bold;
+}
+
+span#se {
+    background-color: rgb(245, 215, 245);
+    display: flex;
+}
+
+span#se p, span#music p {
+    color: #1d1b50;
+    margin: 15px;
+    font-weight: bold;
+}
+
+div#music {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(210, 200, 190);
+    margin-top: 10vh;
+}
+
+div#music div.image {
+    flex: 1;
+}
+
+div#music div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+div#music div div {
+    flex: 1;
+    padding: 30px;
+}
+
+div#music div div p {
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#1d1b50;
+}
+
+div#music div div h1 {
+    color: #1d1b50;
+    font-size: 40px;
+}
+
+span#music {
+    background-color: rgb(210, 200, 190);
+    display: flex;
+    margin-bottom: 10vh;
 }
