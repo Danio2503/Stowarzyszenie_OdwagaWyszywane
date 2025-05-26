@@ -163,7 +163,7 @@ div > .big, .small {
     margin: 15px;
 }
 
-#calendar-title {
+.h1-title {
     color: rgb(200, 30, 30);
     font-size: 50px;
     text-decoration: underline;
@@ -428,4 +428,33 @@ span#music {
     background-color: rgb(210, 200, 190);
     display: flex;
     margin-bottom: 10vh;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    min-width: 80vw;
+}
+
+.contacts div div {
+    flex: 1;
+}
+
+.contacts div div h1 {
+    color: #1d1b50;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+
+.contacts div div p {
+    color: #1d1b50;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contacts div {
+    display: flex;
+    flex-direction: column;
 }
