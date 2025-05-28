@@ -109,18 +109,6 @@ a > p {
     flex: 1;
 }
 
-.history-main {
-    display: flex;   
-}
-
-.history-main > div {
-    flex: 1;
-}
-
-.history-main > img {
-    flex: 2;
-}
-
 .about-main {
     display: flex;
     flex-direction: row;
@@ -541,4 +529,26 @@ div#history div.image {
 
 div#history div.side div {
     flex: 1;
+}
+
+div#history div div p {
+    color: #1d1b50;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.history-main {
+    padding: 20px;
+    margin: 10px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: white;
+}
+
+.history-main h1 {
+    margin-bottom: 10vh;
+    font-size: 80px;
+    color: rgb(200, 30, 30);
+    font-weight: bold;
 }
