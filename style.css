@@ -512,43 +512,98 @@ div#photography {
     margin-bottom: 10vh;
 }
 
-div#history {
+div.history-main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+div.history-main div.text {
     display: flex;
     flex-direction: row;
 }
 
-div#history div.side {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-}
-
-div#history div.image {
+div.history-main div.text div {
     flex: 3;
 }
 
-div#history div.side div {
+div.history-main div.text div.image {
     flex: 1;
 }
 
-div#history div div p {
+div.history-main div div p {
     color: #1d1b50;
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
 }
 
-.history-main {
+div#history {
     padding: 20px;
     margin: 10px;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    background-color: white;
 }
 
-.history-main h1 {
-    margin-bottom: 10vh;
+div#history h1 {
     font-size: 80px;
     color: rgb(200, 30, 30);
     font-weight: bold;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+div#history div div p {
+    color: #1d1b50;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+div#history div {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10vh;
+}
+
+div#kadra {
+    padding: 10px;
+}
+
+div#kadra div {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-bottom: 10vh;
+}
+div#kadra div div p {
+    color: #1d1b50;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div#kadra div div p.name {  
+    color: #1d1b50;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+div#kadra div div {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+div#kadra h1 {
+    color: rgb(200, 30, 30);
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    margin: 0px;
+    padding-top: 40px;
 }
