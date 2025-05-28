@@ -512,30 +512,32 @@ div#photography {
     margin-bottom: 10vh;
 }
 
-div.history-main {
+div#history div.history-main {
     display: flex;
     flex-direction: column;
     background-color: white;
 }
 
-div.history-main div.text {
+div#history div.history-main div.text {
     display: flex;
     flex-direction: row;
+    margin: 0px;
 }
 
-div.history-main div.text div {
+div#history div.history-main div.text div {
     flex: 3;
+    margin: 0px;
 }
 
-div.history-main div.text div.image {
+div#history div.history-main div.text div.image {
     flex: 1;
 }
 
-div.history-main div div p {
+div#history div.history-main div div p {
     color: #1d1b50;
     font-weight: bold;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 25px;
+    margin: 20px;
 }
 
 div#history {
@@ -551,7 +553,8 @@ div#history h1 {
     font-weight: bold;
     background-color: white;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
+    padding-top: 5vh;
 }
 
 div#history div div p {
