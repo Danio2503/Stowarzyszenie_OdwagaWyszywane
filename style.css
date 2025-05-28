@@ -156,7 +156,8 @@ div > .big, .small {
     font-size: 50px !important;
     text-decoration: underline !important;
     font-weight: bold !important;
-    margin: 50px !important;
+    margin: 20px !important;
+    margin-bottom: 5vh !important;
 }
 
 table {
@@ -470,6 +471,13 @@ div.logos div p {
     color: #1d1b50;
 }
 
+div.title-partners {
+    padding: 0px;
+    padding-top: 2vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 div.title-partners div p {
     font-size: 20px;
     font-weight: bold;
@@ -510,6 +518,7 @@ div#photography {
     margin: 10px;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    background-color: white;
 }
 
 div#history div.history-main {
