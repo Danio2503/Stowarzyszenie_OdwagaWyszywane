@@ -523,3 +523,22 @@ div#photography {
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
+
+div#history {
+    display: flex;
+    flex-direction: row;
+}
+
+div#history div.side {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+div#history div.image {
+    flex: 3;
+}
+
+div#history div.side div {
+    flex: 1;
+}
