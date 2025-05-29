@@ -370,6 +370,7 @@ div.row1 div, div.row2 div {
 span#sexual-education {
     background-color: rgb(245, 215, 245);
     display: flex;
+    margin-bottom: 10vh;
 }
 
 span#sexual-education p, span#music p {
