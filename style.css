@@ -26,7 +26,7 @@ body {
 
 .menu ul li {
     position: relative;
-    width: 13.5vw;
+    width: 11.6vw;
 }
 
 .menu ul li a {
@@ -290,7 +290,7 @@ div.description {
     padding-top: 30px;
 }
 
-div#se {
+div#sexual-education {
     display: flex;
     flex-direction: row;
     background-color: rgb(245, 215, 245);
@@ -298,64 +298,64 @@ div#se {
     padding: 40px;
 }
 
-div#se div {
+div#sexual-education div {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-div#se div div {
+div#sexual-education div div {
     flex: 2;
     align-items: center;
     color: #1d1b50;
 }
 
-div#se div div p {
+div#sexual-education div div p {
     font-size: 20px;
     font-weight: bold;
     color: #1d1b50;
 }
 
-div#se div div h1 {
+div#sexual-education div div h1 {
     font-size: 50px;
     font-weight: bold;
     color: #1d1b50;
 }
 
-div#se div.info {
+div#sexual-education div.info {
     flex: 1;
 }
 
-div#se div.info h1 {
+div#sexual-education div.info h1 {
     color: #1d1b50;
     font-size: 30px;
 }
 
-div#se div.info p {
+div#sexual-education div.info p {
     color: #1d1b50;
     font-size: 20px;
 }
 
-div#se div.info a {
+div#sexual-education div.info a {
     color: darkblue;
     text-decoration: underline;
 }
 
-div#se div.data {
+div#sexual-education div.data {
     display: flex;
     flex-direction: column;
 }
 
-div#se div.data div.table {
+div#sexual-education div.data div.table {
     display: flex;
     flex-direction: row;
 }
 
-div#se div.data div.table .row1 {
+div#sexual-education div.data div.table .row1 {
     align-items: self-end;
 }
 
-div#se div.data div.table .row2 {
+div#sexual-education div.data div.table .row2 {
     align-items: self-start;
 }
 
@@ -367,12 +367,12 @@ div.row1 div, div.row2 div {
     font-weight: bold;
 }
 
-span#se {
+span#sexual-education {
     background-color: rgb(245, 215, 245);
     display: flex;
 }
 
-span#se p, span#music p {
+span#sexual-education p, span#music p {
     color: #1d1b50;
     margin: 15px;
     font-weight: bold;
@@ -579,23 +579,23 @@ div#history div {
     margin-bottom: 10vh;
 }
 
-div#kadra {
+div#members {
     padding: 10px;
 }
 
-div#kadra div {
+div#members div {
     display: flex;
     flex-direction: row;
     background-color: white;
     margin-bottom: 10vh;
 }
-div#kadra div div p {
+div#members div div p {
     color: #1d1b50;
     font-size: 20px;
     font-weight: bold;
 }
 
-div#kadra div div p.name {  
+div#members div div p.name {  
     color: #1d1b50;
     font-size: 25px;
     font-weight: bold;
@@ -603,7 +603,7 @@ div#kadra div div p.name {
     margin-bottom: 15px;
 }
 
-div#kadra div div {
+div#members div div {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
@@ -611,7 +611,7 @@ div#kadra div div {
     flex-direction: column;
 }
 
-div#kadra h1 {
+div#members h1 {
     color: rgb(200, 30, 30);
     font-size: 50px;
     font-weight: bold;
