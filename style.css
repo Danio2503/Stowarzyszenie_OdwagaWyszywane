@@ -81,14 +81,15 @@ a > p {
     flex-direction: row;
 }
 
-.left .mid .right {
+div.text-content div.text {
     flex: 1;
-    color: white;
-    background-color: gray;
     padding: 20px;
     font-size: 20px;
 }
 
+div.text-content div.text p {
+    color:#1d1b50;
+}
 .main {
     display: flex;
     flex-direction: column;
@@ -144,11 +145,11 @@ div > .big, .small {
 
 .title p {
     font-size: 20px;
-
 }
 
 .title p, h1, h2 {
     margin: 15px;
+    color: #1d1b50;
 }
 
 .h1-title {
