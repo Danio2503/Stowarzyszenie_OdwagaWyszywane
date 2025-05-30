@@ -1,5 +1,5 @@
 async function LoadLanguage(lang) { // async bcuz fetch wants it idk
-    const response = await fetch(`../lang/${lang}.json`);
+    const response = await fetch(`./lang/${lang}.json`);
     const translations = await response.json();
 
     document.querySelectorAll('[text]').forEach(el => {
