@@ -4,7 +4,7 @@ async function LoadLanguage(lang) { // async bcuz fetch wants it idk
 
     document.querySelectorAll('[text]').forEach(el => {
         const key = el.getAttribute('text');
-        if (translations[key]) el.textContent = translations[key];
+        if (translations[key]) el.innerHTML = translations[key];
     });
 
     // Save preference if you want
