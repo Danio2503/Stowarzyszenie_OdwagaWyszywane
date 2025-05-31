@@ -191,6 +191,11 @@ td {
     background-color: #ffe9e9;
 }
 
+.lang-select {
+    background-color: rgb(125, 35, 35);
+    color: white;
+}
+
 .date {
     font-weight: bold;
     color: red;
